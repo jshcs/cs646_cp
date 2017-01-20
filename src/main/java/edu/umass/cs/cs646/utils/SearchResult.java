@@ -44,7 +44,7 @@ public class SearchResult implements Comparable<SearchResult> {
 	}
 	
 	/**
-	 * Writer a list of search result using the TREC standard result format.
+	 * Write a list of search result using the TREC standard result format.
 	 *
 	 * @param writer  Output.
 	 * @param queryid A query id.
