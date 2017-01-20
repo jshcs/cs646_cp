@@ -29,7 +29,7 @@ Significance tests can be used to compare the three approaches and figure out wh
 ###Regarding the source code
 
 Part of the source code used in this project was provided as utility code for the [CMPSCI 646](http://people.cs.umass.edu/~jpjiang/cs646/) class offered in Fall '16.  
-The two indexes(index_robust04 and index_trec123) were also provided as part of the course.
+The two indexes(index_robust04 and index_trec123), test collections, list of queries and the list of stopwords were provided as part of the course.
 
 ###References
 
