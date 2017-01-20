@@ -147,9 +147,6 @@ public class LuceneUtils {
 	};
 	
 	/**
-	 * Well, this is kind of slow and probably not thread-safe,
-	 * but Lucene's Krovetz stemmer doesn't have a public constructor.
-	 *
 	 * @param word A word.
 	 * @return Its Krovetz stem.
 	 * @throws IOException

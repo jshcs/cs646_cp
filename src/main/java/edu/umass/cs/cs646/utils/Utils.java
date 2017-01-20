@@ -4,11 +4,7 @@ import java.util.*;
 
 public class Utils {
 	
-	/**
-	 * Norm the weights such that they sum up to 1.
-	 *
-	 * @param weights
-	 */
+	
 	public static Map<String, Double> norm( Map<String, Double> weights ) {
 		double sum = 0;
 		for ( double weight : weights.values() ) {
@@ -21,11 +17,7 @@ public class Utils {
 		return normWeights;
 	}
 	
-	/**
-	 * Norm the weights such that they sum up to 1.
-	 *
-	 * @param weights
-	 */
+	
 	public static Map<String, Double> getTop( Map<String, Double> weights, int top ) {
 		List<String> entries = new ArrayList<>( weights.keySet() );
 		Collections.sort( entries, ( w1, w2 ) -> weights.get( w2 ).compareTo( weights.get( w1 ) ) );
@@ -36,11 +28,7 @@ public class Utils {
 		return topEntries;
 	}
 	
-	/**
-	 * Norm the weights such that they sum up to 1.
-	 *
-	 * @param weights
-	 */
+	
 	public static void printTop( Map<String, Double> weights, int top ) {
 		List<String> entries = new ArrayList<>( weights.keySet() );
 		Collections.sort( entries, ( w1, w2 ) -> weights.get( w2 ).compareTo( weights.get( w1 ) ) );

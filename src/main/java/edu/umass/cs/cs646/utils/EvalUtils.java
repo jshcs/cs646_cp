@@ -87,7 +87,7 @@ public class EvalUtils {
 	}
 	
 	/**
-	 * Load a TREC-format relevance judgment (qrels) file (such as "qrels_robust04" in HW2).
+	 * Load a TREC-format relevance judgment (qrels) file (such as "qrels_robust04").
 	 *
 	 * @param f A qrels file.
 	 * @return A map storing the set of relevant documents for each qid.
@@ -98,7 +98,7 @@ public class EvalUtils {
 	}
 	
 	/**
-	 * Load a TREC-format relevance judgment (qrels) file (such as "qrels_robust04" in HW2).
+	 * Load a TREC-format relevance judgment (qrels) file (such as "qrels_robust04").
 	 *
 	 * @param f A qrels file.
 	 * @return A map storing the set of relevant documents for each qid.
@@ -123,7 +123,7 @@ public class EvalUtils {
 	
 	
 	/**
-	 * Load a query file (such as "queries_robust04" in HW2).
+	 * Load a query file (such as "queries_robust04").
 	 *
 	 * @param f A query file.
 	 * @return A map storing the text query for each qid.
